@@ -598,11 +598,18 @@ right: 15px;
 
 
 
+
 /* ============================= about section 3 css ======================== */
+
+#line2 {
+  width: 100%;
+  color: black;
+  margin-top: 100px;
+}
 
 
 #section3 {
-  margin-top: 150px;
+  margin-top: 50px;
 }
 
 #section_head_text {
@@ -647,7 +654,9 @@ right: 15px;
   width: 300px;
   /* background-color: #0096FF; */
   border: 1px solid rgb(165, 177, 180);
+  border-radius: 20px;
   transition: box-shadow 0.3s ease;
+
 }
 
 .section3_data1:hover {
@@ -658,6 +667,8 @@ right: 15px;
 .image-container {
   overflow: hidden;
   display: inline-block;
+  border-radius: 20px;
+
 }
 
 #section2_img1 {
@@ -665,6 +676,8 @@ right: 15px;
   height: 100%;
   object-fit: contain;
   cursor: pointer;
+
+  
   transition: transform 0.3s ease;
  
 }
@@ -681,6 +694,7 @@ right: 15px;
   margin-left: 15px;
   font-weight: 600;
   color: rgb(0, 0, 0);
+  
 
 }
 
@@ -690,6 +704,7 @@ right: 15px;
   font-weight: 300;
   font-size: 15px;
   color: rgb(0, 0, 0);
+
 }
 
 #section3_btn {
@@ -719,6 +734,7 @@ right: 15px;
   /* background-color: #0096FF; */
   border: 1px solid rgb(165, 177, 180);
   transition: box-shadow 0.3s ease;
+  border-radius: 20px; 
 }
 
 .section3_data2:hover {
@@ -730,8 +746,161 @@ right: 15px;
   /* background-color: #ffffff; */
   border: 1px solid rgb(165, 177, 180);
   transition: box-shadow 0.3s ease;
+  border-radius: 20px; 
 }
 
 .section3_data3:hover {
   box-shadow: rgba(0, 0, 0, 0.4) 0px 30px 90px;
 }
+
+
+
+
+
+
+  /* ============================= about section 4 css ======================== */
+
+
+
+
+
+
+  #main_div_section4 {
+    /* background-color: black; */
+    margin-top: 80px;
+  }
+
+  #section4_text {
+    font-size: 3.2rem;
+    text-align: center;
+    font-weight: 700;
+  }
+
+
+  #section4_data {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+    height: 400px;
+    width: 100%;
+  }
+
+  .section4_data1 {
+    height: 300px;
+    width: 300px;
+    /* background-color: #51ff00; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 30px;
+
+    
+  }
+
+
+  .section4_data2 {
+    height: 300px;
+    width: 300px;
+    /* background-color: #ff00b3; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 30px;
+  }
+
+  .section4_data3 {
+    height: 300px;
+    width: 300px;
+    /* background-color: #0096FF; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 30px;
+  }
+
+  #section4_icon1 {
+    height: 215px;
+    width: 215px;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid black;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: box-shadow 0.3s ease
+                background-color 0.3s ease;
+                
+  }
+
+  #section4_icon1:hover {
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 30px 90px; 
+    background-color: #ecfbff;
+    border: 1px solid rgb(15, 187, 255);
+     
+  }
+
+  #section4_icon2 {
+ 
+      height: 215px;
+      width: 215px;
+    /* background-color: cadetblue; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid black;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: box-shadow 0.3s ease
+    background-color 0.3s ease;
+  }
+
+  #section4_icon2:hover {
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 30px 90px; 
+    background-color: #ecfbff;
+    border: 1px solid rgb(15, 187, 255);
+     
+  }
+
+  #section4_icon3 {
+    height: 215px;
+    width: 215px;
+    /* background-color: cadetblue; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid black;
+    border-radius: 50%;
+    cursor: pointer;
+
+    transition: box-shadow 0.3s ease
+    background-color 0.3s ease;
+  }
+
+  #section4_icon3:hover {
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 30px 90px; 
+    background-color: #ecfbff;
+    border: 1px solid rgb(15, 187, 255);
+     
+  }
+
+  #section4_icon {
+    font-size: 150px;
+    color: #0096FF;
+    transition: color 0.3s ease
+  }
+
+  #section4_icon:hover {
+    color: rgb(126, 126, 126);
+  }
+
+  #section4_text2 {
+    color: #0096FF;
+    font-size: 30px;
+    font-weight: 600;
+  }
+
