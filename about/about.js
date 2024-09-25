@@ -55,7 +55,7 @@ let child3_data = document.querySelector("#section4_child3_div");
 //child 1 
 
 
-child1.addEventListener("click" , () => {
+child1.addEventListener("click" , () => {  
     
     child1_data.style.display = "flex"
     child2_data.style.display = "none"
