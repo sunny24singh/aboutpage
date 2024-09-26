@@ -33,7 +33,7 @@ drop_data1.addEventListener('mouseout' , () => {
 
 
 
-let drop_close = document.querySelector("#drop_icon");
+let drop_close = document.querySelector("#drop_icon");  
 
 drop_close.addEventListener("click" , () => {
     drop_data1.style.display = "none"

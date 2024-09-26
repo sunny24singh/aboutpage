@@ -1,7 +1,7 @@
 
 
 
-
+/* ===== header css ======== */
 
 @media screen and (max-width: 650px) and (orientation : portrait) {
   body {
@@ -501,8 +501,7 @@
 
 }
 
-
-@media screen and (max-width: 650px) and (orientation : landscape)  {
+@media only screen  and (max-width : 700px) and (max-width : 850px) and (orientation : landscape)  {
   #section3_text1 {
     width: 90%;
     text-align: center;
@@ -662,7 +661,7 @@
 
 
 
-@media screen and (max-width: 650px) and (orientation : landscape) {
+@media only screen  and (max-width : 700px) and (max-width : 850px) and (orientation : landscape) {
 
   #section4_text {
     font-size: 2rem;
@@ -777,7 +776,7 @@
     align-items: center;
     width: 100%;
     height: auto;
-    /* background-color: black; */
+    margin-top: -100px;
     gap: 0px;
     flex-direction: column;
     padding: 20px;
@@ -789,7 +788,7 @@
   align-items: center;
   width: 100%;
   height: auto;
-  /* background-color: black; */
+  margin-top: -100px;
   gap: 0px;
   flex-direction: column;
   padding: 20px;
@@ -801,50 +800,53 @@
   align-items: center;
   width: 100%;
   height: auto;
-  /* background-color: black; */
+  margin-top: -100px;
   gap: 0px;
   flex-direction: column;
   padding: 20px;
 }
 
 #section4_child1_data1 {
-  width: 350px;
+  width: 300px;
   height: 300px;
+  padding: 15px;
   /* background-color: aquamarine; */
  }
 
   #section4_child1_data2 {
     width: 300px;
     height: auto;
-    padding: 0;
+    padding: 15px;
     margin: 0;
     /* background-color: aquamarine; */
    }
 
    #section4_child2_data1 {
-    width: 350px;
+    width: 300px;
     height: 300px;
+    padding: 15px;
     /* background-color: aquamarine; */
    }
 
     #section4_child2_data2 {
       width: 300px;
       height: auto;
-      padding: 0;
+      padding: 15px;
       margin: 0;
       /* background-color: aquamarine; */
      }
 
      #section4_child3_data1 {
-      width: 350px;
+      width: 300px;
       height: 300px;
+      padding: 15px;
       /* background-color: aquamarine; */
      }
 
       #section4_child3_data2 {
         width: 300px;
         height: auto;
-        padding: 0;
+        padding: 15px;
         margin: 0;
         /* background-color: aquamarine; */
        }
@@ -872,7 +874,7 @@
 
 
 
-@media screen and (max-width: 650px) and (orientation : landscape) {
+@media only screen  and (max-width : 700px) and (max-width : 850px) and (orientation : landscape) {
   #section4_child1_datas {
     display: flex;
     justify-content: center;
@@ -910,7 +912,7 @@
 }
 
 #section4_child1_data1 {
-  width: 350px;
+  width: 300px;
   height: 300px;
   /* background-color: aquamarine; */
  }
@@ -924,7 +926,7 @@
    }
 
    #section4_child2_data1 {
-    width: 350px;
+    width: 300px;
     height: 300px;
     /* background-color: aquamarine; */
    }
@@ -938,7 +940,7 @@
      }
 
      #section4_child3_data1 {
-      width: 350px;
+      width: 300px;
       height: 300px;
       /* background-color: aquamarine; */
      }
@@ -982,6 +984,28 @@
 
 
 @media screen and (max-width: 650px) and (orientation : portrait) {
+
+  #a1 {
+    background-color: black;
+    padding-top: 2rem;
+  
+}
+
+#f{
+  margin-top: 0;
+ 
+}
+
+.footer_main_tetx {
+  text-align: center;
+  /* margin-top: 100px; */
+  font-size: 2rem;
+  font-weight: 700;
+  color: white;
+  /* margin-top: 50px; */
+}
+
+
   #footer_datas {
     display: flex;
     justify-content: center;
@@ -991,6 +1015,7 @@
     height: auto;
     /* background-color: black; */
     flex-direction: column;
+    margin-top: 3rem;
 }
 
 #footer_section2_datas {
@@ -1024,7 +1049,7 @@
 }
 
 
-@media screen and (max-width: 650px) and (orientation : landscape) {
+@media only screen  and (max-width : 700px) and (max-width : 850px) and (orientation : landscape) {
   #footer_datas {
     display: flex;
     justify-content: center;
@@ -1034,6 +1059,7 @@
     height: auto;
     /* background-color: black; */
     flex-direction: column;
+    margin-top: 3rem;
 }
 
 #footer_section2_datas {
@@ -1065,3 +1091,1174 @@
 }
 
 }
+
+
+
+
+
+
+
+/* ============================ tablet css ======================================*/
+
+@media only screen and (min-device-width : 760px) and (max-device-width : 1024px) and (orientation : portrait)  {
+          #libas {
+            border-right: 1px solid white;
+            height: 350px;
+            margin-top: 20px;
+            margin-right: 0px;
+            margin-left: 10px;
+            display: none;
+        }
+
+        #section1_text1 {
+          font-weight: 600;
+          text-align: center;
+          font-size: 3.5rem;
+      }
+
+      #section1_data {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 50px;
+        background-color: rgb(255, 255, 255);
+        width: 100%;
+        height: 800px;
+    }
+
+    .section1_img {
+      height: auto;
+      width: 500px;
+      padding: 20px;
+      /* background-color: #ffffff; */
+  }
+
+  .data {
+    height: auto;
+    width: 500px;
+    padding: 20px;
+    /* background-color: #ffffff; */
+}
+
+
+/* ===== section 3 tab css  ====== */
+
+        #section_head_text {
+          text-align: center;
+          font-size: 4rem;
+          font-weight: 500;
+          text-decoration: underline;
+          text-decoration-color: #0096FF;
+          text-underline-offset: 20px;
+      }
+
+      #section__text {
+        margin-top: 30px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #section3_text1 {
+      width: 70%;
+      text-align: center;
+      font-size: 1.2rem;
+  }
+
+  #main_section3 {
+    margin-top: 70px;
+    height: auto;
+    width: 100%;
+    background-color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    flex-wrap: wrap;
+}
+
+/* ===== section 4 tab css top icon bala ====== */
+
+        #section4_data {
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          gap: 20px;
+          height: 400px;
+          width: 100%;
+      }
+
+      .section4_data1 {
+        height: 250px;
+        width: 250px;
+        /* background-color: #51ff00; */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        gap: 30px;
+    }
+
+    .section4_data2 {
+      height: 250px;
+      width: 250px;
+      /* background-color: #51ff00; */
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      gap: 30px;
+  }
+
+  .section4_data3 {
+    height: 250px;
+    width: 250px;
+    /* background-color: #51ff00; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 30px;
+}
+
+      #section4_icon1 {
+        height: 125px;
+        width: 125px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border: 1px solid black;
+        border-radius: 50%;
+        cursor: pointer;
+        transition: box-shadow 0.3s ease;
+    }
+
+    #section4_icon2 {
+      height: 125px;
+      width: 125px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      border: 1px solid black;
+      border-radius: 50%;
+      cursor: pointer;
+      transition: box-shadow 0.3s ease;
+  }
+
+  #section4_icon3 {
+    height: 125px;
+    width: 125px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid black;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: box-shadow 0.3s ease;
+}
+
+      #section4_icon {
+        font-size: 80px;
+        color: #0096FF;
+    }
+
+    #section4_text {
+      font-size: 4.2rem;
+      text-align: center;
+      font-weight: 700;
+  }
+
+
+/* ===== section 4 chils5 tab css top icon par chick karne bale ====== */
+
+          #section4_child1_datas {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 100%;
+            height: auto;
+            /* background-color: black; */
+            gap: 0px;
+          }
+
+          #section4_child2_datas {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 100%;
+            height: auto;
+            /* background-color: black; */
+            gap: 0px;
+          }
+
+          #section4_child3_datas {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 100%;
+            height: auto;
+            /* background-color: black; */
+            gap: 0px;
+          }
+
+
+/* ==== footer teb css =====*/
+
+    .footer_main_tetx {
+      text-align: center;
+      /* margin-top: 100px; */
+      font-size: 4rem;
+      font-weight: 700;
+      color: white;
+    }
+
+    #footer_datas {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 20px;
+      width: 100%;
+      height: auto;
+      /* background-color: black; */
+      flex-wrap: wrap;
+      margin-top: 5rem;
+  }
+
+  #footer_section2_main {
+    background-color: black;
+    width: 100%;
+    height: auto;
+}
+
+#footer_section2_datas {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  width: 100%;
+  height: 1200px;
+  /* background-color: black; */
+  flex-wrap: wrap;
+  padding-top: 1rem;
+  align-content: flex-start;
+}
+
+}
+
+
+
+@media only screen and (min-device-width : 760px) and (max-device-width : 1024px) and (orientation : landscape)  {
+
+  #libas {
+    border-right: 1px solid white;
+    height: 350px;
+    margin-top: 20px;
+    margin-right: 0px;
+    margin-left: 10px;
+    display: none;
+}
+
+  #section1_text1 {
+    font-weight: 600;
+    text-align: center;
+    font-size: 3.5rem;
+}
+
+#section1_data {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+  background-color: rgb(255, 255, 255);
+  width: 100%;
+  height: 800px;
+}
+
+.section1_img {
+height: auto;
+width: 500px;
+padding: 20px;
+/* background-color: #ffffff; */
+}
+
+.data {
+height: auto;
+width: 500px;
+padding: 20px;
+/* background-color: #ffffff; */
+}
+
+
+/* ===== section 3 tab css  ====== */
+
+  #section_head_text {
+    text-align: center;
+    font-size: 4rem;
+    font-weight: 500;
+    text-decoration: underline;
+    text-decoration-color: #0096FF;
+    text-underline-offset: 20px;
+}
+
+#section__text {
+  margin-top: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#section3_text1 {
+width: 70%;
+text-align: center;
+font-size: 1.2rem;
+}
+
+#main_section3 {
+margin-top: 70px;
+height: auto;
+width: 100%;
+background-color: #ffffff;
+display: flex;
+justify-content: center;
+align-items: center;
+gap: 50px;
+flex-wrap: wrap;
+}
+
+/* ===== section 4 tab css top icon bala ====== */
+
+  #section4_data {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    height: 400px;
+    width: 100%;
+}
+
+.section4_data1 {
+  height: 250px;
+  width: 250px;
+  /* background-color: #51ff00; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.section4_data2 {
+height: 250px;
+width: 250px;
+/* background-color: #51ff00; */
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+gap: 30px;
+}
+
+.section4_data3 {
+height: 250px;
+width: 250px;
+/* background-color: #51ff00; */
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+gap: 30px;
+}
+
+#section4_icon1 {
+  height: 125px;
+  width: 125px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid black;
+  border-radius: 50%;
+  cursor: pointer;
+  transition: box-shadow 0.3s ease;
+}
+
+#section4_icon2 {
+height: 125px;
+width: 125px;
+display: flex;
+justify-content: center;
+align-items: center;
+border: 1px solid black;
+border-radius: 50%;
+cursor: pointer;
+transition: box-shadow 0.3s ease;
+}
+
+#section4_icon3 {
+height: 125px;
+width: 125px;
+display: flex;
+justify-content: center;
+align-items: center;
+border: 1px solid black;
+border-radius: 50%;
+cursor: pointer;
+transition: box-shadow 0.3s ease;
+}
+
+#section4_icon {
+  font-size: 80px;
+  color: #0096FF;
+}
+
+#section4_text {
+font-size: 4.2rem;
+text-align: center;
+font-weight: 700;
+}
+
+
+/* ===== section 4 chils5 tab css top icon par chick karne bale ====== */
+
+    #section4_child1_datas {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 100%;
+      height: auto;
+      /* background-color: black; */
+      gap: 0px;
+    }
+
+    #section4_child2_datas {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 100%;
+      height: auto;
+      /* background-color: black; */
+      gap: 0px;
+    }
+
+    #section4_child3_datas {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 100%;
+      height: auto;
+      /* background-color: black; */
+      gap: 0px;
+    }
+
+
+/* ==== footer teb css =====*/
+
+.footer_main_tetx {
+text-align: center;
+/* margin-top: 100px; */
+font-size: 4rem;
+font-weight: 700;
+color: white;
+}
+
+#footer_datas {
+display: flex;
+justify-content: center;
+align-items: center;
+gap: 20px;
+width: 100%;
+height: auto;
+/* background-color: black; */
+flex-wrap: wrap;
+margin-top: 5rem;
+}
+
+
+  #footer_section2_datas {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    flex-wrap: wrap;
+}
+
+}
+
+
+@media only screen and (min-device-width : 540px) and (max-device-height  : 720px)  and (orientation : landscape)   {
+
+  #section1_text1 {
+    font-weight: 600;
+    text-align: center;
+    font-size: 2.5rem;
+}
+
+#section1_data {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+  background-color: rgb(255, 255, 255);
+  width: 100%;
+  height: auto;
+}
+
+.section1_img {
+height: auto;
+width: 500px;
+padding: 20px;
+/* background-color: #ffffff; */
+}
+
+.data {
+height: auto;
+width: 500px;
+padding: 20px;
+/* background-color: #ffffff; */
+}
+
+
+#section_head_text {
+  text-align: center;
+  font-size: 2rem;
+  font-weight: 500;
+  text-decoration: underline;
+  text-decoration-color: #0096FF;
+  text-underline-offset: 20px;
+}
+
+#section__text {
+margin-top: 30px;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+#section3_text1 {
+width: 70%;
+text-align: center;
+font-size: 1rem;
+}
+
+#main_section3 {
+margin-top: 70px;
+height: auto;
+width: 100%;
+background-color: #ffffff;
+display: flex;
+justify-content: center;
+align-items: center;
+gap: 50px;
+flex-wrap: wrap;
+}
+
+
+
+  
+  #section4_data {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    height: 400px;
+    width: 100%;
+}
+
+.section4_data1 {
+  height: 250px;
+  width: 250px;
+  /* background-color: #51ff00; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.section4_data2 {
+height: 250px;
+width: 250px;
+/* background-color: #51ff00; */
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+gap: 30px;
+}
+
+.section4_data3 {
+height: 250px;
+width: 250px;
+/* background-color: #51ff00; */
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+gap: 30px;
+}
+
+#section4_icon1 {
+  height: 125px;
+  width: 125px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid black;
+  border-radius: 50%;
+  cursor: pointer;
+  transition: box-shadow 0.3s ease;
+}
+
+#section4_icon2 {
+height: 125px;
+width: 125px;
+display: flex;
+justify-content: center;
+align-items: center;
+border: 1px solid black;
+border-radius: 50%;
+cursor: pointer;
+transition: box-shadow 0.3s ease;
+}
+
+#section4_icon3 {
+height: 125px;
+width: 125px;
+display: flex;
+justify-content: center;
+align-items: center;
+border: 1px solid black;
+border-radius: 50%;
+cursor: pointer;
+transition: box-shadow 0.3s ease;
+}
+
+#section4_icon {
+  font-size: 80px;
+  color: #0096FF;
+}
+
+#section4_text {
+font-size: 2rem;
+text-align: center;
+font-weight: 700;
+}
+
+
+/* ===== section 4 chils5 tab css top icon par chick karne bale ====== */
+
+    #section4_child1_datas {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 100%;
+      height: auto;
+      /* background-color: black; */
+      gap: 0px;
+    }
+
+    #section4_child2_datas {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 100%;
+      height: auto;
+      /* background-color: black; */
+      gap: 0px;
+    }
+
+    #section4_child3_datas {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 100%;
+      height: auto;
+      /* background-color: black; */
+      gap: 0px;
+    }
+
+  #footer_datas {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 70px;
+    width: 100%;
+    height: auto;
+    /* background-color: black; */
+    flex-wrap: wrap;
+    padding-top: 5rem;
+}
+      #footer_section2_datas {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: auto;
+        flex-wrap: wrap;
+        height: auto;
+        align-content: flex-start;
+    }
+
+}
+
+
+
+@media only screen and (min-device-width : 720px) and (max-device-height  : 1114px)  and (orientation : portrait)   {
+
+  #section1_text1 {
+    font-weight: 600;
+    text-align: center;
+    font-size: 3.5rem;
+}
+
+#section1_data {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+  background-color: rgb(255, 255, 255);
+  width: 100%;
+  height: auto;
+}
+
+.section1_img {
+height: auto;
+width: 500px;
+padding: 20px;
+/* background-color: #ffffff; */
+}
+
+.data {
+height: auto;
+width: 500px;
+padding: 20px;
+/* background-color: #ffffff; */
+}
+
+
+#section_head_text {
+  text-align: center;
+  font-size: 4rem;
+  font-weight: 500;
+  text-decoration: underline;
+  text-decoration-color: #0096FF;
+  text-underline-offset: 20px;
+}
+
+#section__text {
+margin-top: 30px;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+#section3_text1 {
+width: 70%;
+text-align: center;
+font-size: 1.2rem;
+}
+
+#main_section3 {
+margin-top: 70px;
+height: auto;
+width: 100%;
+background-color: #ffffff;
+display: flex;
+justify-content: center;
+align-items: center;
+gap: 50px;
+flex-wrap: wrap;
+}
+
+
+
+  
+  #section4_data {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    height: 400px;
+    width: 100%;
+}
+
+.section4_data1 {
+  height: 250px;
+  width: 250px;
+  /* background-color: #51ff00; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.section4_data2 {
+height: 250px;
+width: 250px;
+/* background-color: #51ff00; */
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+gap: 30px;
+}
+
+.section4_data3 {
+height: 250px;
+width: 250px;
+/* background-color: #51ff00; */
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+gap: 30px;
+}
+
+#section4_icon1 {
+  height: 125px;
+  width: 125px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid black;
+  border-radius: 50%;
+  cursor: pointer;
+  transition: box-shadow 0.3s ease;
+}
+
+#section4_icon2 {
+height: 125px;
+width: 125px;
+display: flex;
+justify-content: center;
+align-items: center;
+border: 1px solid black;
+border-radius: 50%;
+cursor: pointer;
+transition: box-shadow 0.3s ease;
+}
+
+#section4_icon3 {
+height: 125px;
+width: 125px;
+display: flex;
+justify-content: center;
+align-items: center;
+border: 1px solid black;
+border-radius: 50%;
+cursor: pointer;
+transition: box-shadow 0.3s ease;
+}
+
+#section4_icon {
+  font-size: 80px;
+  color: #0096FF;
+}
+
+#section4_text {
+font-size: 4.2rem;
+text-align: center;
+font-weight: 700;
+}
+
+
+/* ===== section 4 chils5 tab css top icon par chick karne bale ====== */
+
+    #section4_child1_datas {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 100%;
+      height: auto;
+      /* background-color: black; */
+      gap: 0px;
+    }
+
+    #section4_child2_datas {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 100%;
+      height: auto;
+      /* background-color: black; */
+      gap: 0px;
+    }
+
+    #section4_child3_datas {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 100%;
+      height: auto;
+      /* background-color: black; */
+      gap: 0px;
+    }
+
+  #footer_datas {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 70px;
+    width: 100%;
+    height: auto;
+    /* background-color: black; */
+    flex-wrap: wrap;
+    padding-top: 5rem;
+}
+      #footer_section2_datas {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: auto;
+        flex-wrap: wrap;
+        height: auto;
+        align-content: flex-start;
+    }
+
+}
+
+
+
+
+
+
+
+
+ @media only screen and (min-device-width : 690px) and (max-device-height : 829px) and (orientation : portrait) {
+  #section1_text1 {
+    font-weight: 600;
+    text-align: center;
+    font-size: 3.5rem;
+}
+
+#section1_data {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+  background-color: rgb(255, 255, 255);
+  width: 100%;
+  height: auto;
+}
+
+.section1_img {
+height: auto;
+width: 500px;
+padding: 20px;
+/* background-color: #ffffff; */
+}
+
+.data {
+height: auto;
+width: 500px;
+padding: 20px;
+/* background-color: #ffffff; */
+}
+
+
+#section_head_text {
+  text-align: center;
+  font-size: 4rem;
+  font-weight: 500;
+  text-decoration: underline;
+  text-decoration-color: #0096FF;
+  text-underline-offset: 20px;
+}
+
+#section__text {
+margin-top: 30px;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+#section3_text1 {
+width: 70%;
+text-align: center;
+font-size: 1.2rem;
+}
+
+#main_section3 {
+margin-top: 70px;
+height: auto;
+width: 100%;
+background-color: #ffffff;
+display: flex;
+justify-content: center;
+align-items: center;
+gap: 50px;
+flex-wrap: wrap;
+}
+
+
+
+  
+  #section4_data {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    height: 400px;
+    width: 100%;
+}
+
+.section4_data1 {
+  height: 250px;
+  width: 250px;
+  /* background-color: #51ff00; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.section4_data2 {
+height: 250px;
+width: 250px;
+/* background-color: #51ff00; */
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+gap: 30px;
+}
+
+.section4_data3 {
+height: 250px;
+width: 250px;
+/* background-color: #51ff00; */
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+gap: 30px;
+}
+
+#section4_icon1 {
+  height: 125px;
+  width: 125px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid black;
+  border-radius: 50%;
+  cursor: pointer;
+  transition: box-shadow 0.3s ease;
+}
+
+#section4_icon2 {
+height: 125px;
+width: 125px;
+display: flex;
+justify-content: center;
+align-items: center;
+border: 1px solid black;
+border-radius: 50%;
+cursor: pointer;
+transition: box-shadow 0.3s ease;
+}
+
+#section4_icon3 {
+height: 125px;
+width: 125px;
+display: flex;
+justify-content: center;
+align-items: center;
+border: 1px solid black;
+border-radius: 50%;
+cursor: pointer;
+transition: box-shadow 0.3s ease;
+}
+
+#section4_icon {
+  font-size: 80px;
+  color: #0096FF;
+}
+
+#section4_text {
+font-size: 4.2rem;
+text-align: center;
+font-weight: 700;
+}
+
+
+/* ===== section 4 chils5 tab css top icon par chick karne bale ====== */
+
+    #section4_child1_datas {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 100%;
+      height: auto;
+      /* background-color: black; */
+      gap: 0px;
+    }
+
+    #section4_child2_datas {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 100%;
+      height: auto;
+      /* background-color: black; */
+      gap: 0px;
+    }
+
+    #section4_child3_datas {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 100%;
+      height: auto;
+      /* background-color: black; */
+      gap: 0px;
+    }
+
+  #footer_datas {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 70px;
+    width: 100%;
+    height: auto;
+    /* background-color: black; */
+    flex-wrap: wrap;
+    padding-top: 5rem;
+}
+      #footer_section2_datas {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: auto;
+        flex-wrap: wrap;
+        height: auto;
+        align-content: flex-start;
+    }
+}
+
+
+
+
+
+
+
+
+/* @media only screen and (min-device-width : 1024px) and (max-device-width : 1366px) and (orientation : portrait) {
+
+}
+
+
+
+
+@media only screen and (min-device-width : 912px) and (max-device-height : 1368px) and  (orientation : portrait) {
+  #footer_section2_datas {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    width: 100%;
+    height: 1100px;
+
+    padding-top: 5rem;
+}
+} */
