@@ -78,4 +78,7 @@ child3.addEventListener("click" , () => {
 })
 
 
+// let d = confirm("maa ki chuut")
+
+
 

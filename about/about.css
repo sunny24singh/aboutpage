@@ -308,7 +308,7 @@ border: 1px solid white;
 
 
 #l {
-  margin: 8px;
+  margin: 7px;
   color: white;
   text-decoration: none;
   font-size: 18px;
@@ -660,7 +660,8 @@ right: 15px;
 }
 
 .section3_data1:hover {
-  box-shadow: rgba(0, 0, 0, 0.4) 0px 30px 90px;}
+  box-shadow: rgba(0, 0, 0, 0.4) 0px 30px 90px;
+}
 
 
 
@@ -1077,7 +1078,7 @@ body {
   width: 100%;
   max-height: 1480px;
   height: 650px;
-  filter: brightness(80%);
+  filter: brightness(60%);
   }
   
   #nav_bottum_text  {

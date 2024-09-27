@@ -1,0 +1,609 @@
+
+
+
+
+
+
+/* ===================== HEADER CSS  START================================== */
+
+body {
+    margin: 0;
+    padding: 0;
+    
+  }
+  
+  #header {
+  width: 100%;
+  position: relative;
+  align-content: center;
+  z-index: 1;
+  
+  
+    /* background-image: url('https://www.sskunjpura.org/admin/logged/images/homeslider/c81e728d9d4c2f636f067f89cc14862c2-Academic-Block-(SS-Kunjpura)-(1).jpg');
+    height: 600px;
+    width: 100vw;
+    filter: brightness(90%);
+    object-fit: contain;
+    background-repeat: no-repeat;
+    background-size: 100%; */
+  }
+  
+  #header2 {
+  height: 700px;
+  object-fit: contain;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  
+  }
+  
+  .navtoxix {
+  backdrop-filter: blur(10px);
+  /* backdrop-filter: brightness(.5); */
+    max-width: 1440px;
+  
+  }
+  
+  
+  
+  
+  
+  /* #head_text{
+    margin-top: 25px;
+    display: inline-block;
+    
+    padding-bottom:2px;
+    background-image: linear-gradient(#000 0 0);
+    background-position: 0 100%; 
+    background-size: 0% 2px;
+    background-repeat: no-repeat;
+    transition:
+      background-size 0.3s,
+      background-position 0s 0.3s;
+      
+      
+  }
+  
+  #head_text:hover {
+    background-position: 100% 100%; 
+    background-size: 100% 2px;
+    
+  }
+  
+  #head_text_a {
+    transition: margin-bottom 0.3s ease; 
+  }
+  #head_text_a:hover {
+    color: rgb(37, 172, 221);
+    margin-bottom: 10px;
+  }
+  
+  #head_text a {
+    list-style: none;
+    text-decoration: none;
+    font: 2rem sans-serif;
+    
+    font-weight: bold;
+    color: rgb(133, 147, 155);
+    margin-top: 25px;
+  } */
+  #logo {
+    width: 150px;
+    height: 100px;
+    object-fit: contain;
+  
+  }
+  
+  .list {
+    
+    display: flex;
+    align-items: center; 
+    justify-content: space-between; 
+    margin-left: 20px;
+    margin-right: 20px;
+  
+  
+  }
+  
+  .toggt {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+  
+  }
+  
+  
+  
+  
+  
+  .LISTES {
+    
+    list-style: none;
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 20px;
+    margin-right: 15px;
+    font-weight: 500;
+  
+    padding-bottom:2px;
+    background-image: linear-gradient(#2bdfff 0 0);
+    background-position: 0 100%; /*OR bottom left*/
+    background-size: 0% 2px;
+    background-repeat: no-repeat;
+    
+    transition:
+      background-size 0.3s,
+      background-position 0s 0.3s,
+      margin-bottom 0.3s ease
+      
+    
+  }
+  
+  .LISTES:hover {
+  
+  margin-bottom: 15px;
+  color: #0096FF;
+  list-style: none;
+  text-decoration: none;
+  background-position: 100% 100%; /*OR bottom right*/
+  background-size: 100% 2px;
+  
+  
+  }
+  
+  
+  
+  
+  
+  #icon {
+    display: none;
+    margin-right: 25px;
+    margin-top: 10px;
+    font-size: 30px;
+    border: 1px solid gold;
+    color: rgb(252, 91, 91);
+    border-radius: 8px;
+    cursor: pointer;
+    
+  
+  }
+  
+  
+  #obg {
+  width: 100%;
+  max-height: 1480px;
+  height: 650px;
+  filter: brightness(60%);
+  }
+  
+  #nav_bottum_text  {
+  display: block;
+  }
+  
+  #nav_bottum_text1  {
+  display: block;
+  }
+  
+  #nav_text_flex {
+   max-height: 600px;
+   height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  
+  }
+  
+  .nav_h1 {
+  font-size: 3rem;
+  font-weight: 700;
+  
+  }
+  
+  #nav_bottum_text2 {
+  font-size: 40px;
+  }
+  
+  .span_text {
+  color:  rgb(56 189 248);
+  }
+  
+  
+  #header_btn {
+  margin-top: 15px;
+  height: 50px;
+  width: 170px;
+  font-size: 20px;
+  border-radius: 30px;
+  background-color: transparent;
+  border: 1px solid rgb(56 189 248);
+  color: rgb(56 189 248);
+  cursor: pointer;
+  transition: background-color 600ms ease;
+  
+  }
+  
+  #header_btn:hover {
+  background-color: #0096FF;
+  color: white;
+  border: 1px solid white;
+  }
+  
+  /* ====== dropdown ====== */
+  
+  
+  #dropdown {
+    list-style: none;
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 20px;
+    margin-right: 15px;
+    font-weight: 500;
+  
+    padding-bottom:2px;
+    background-image: linear-gradient(#2bdfff 0 0);
+    background-position: 0 100%; /*OR bottom left*/
+    background-size: 0% 2px;
+    background-repeat: no-repeat;
+    
+    transition:
+      background-size 0.3s,
+      background-position 0s 0.3s,
+      margin-bottom 0.3s ease
+  }
+  
+  #dropdown:hover {
+  
+    margin-bottom: 15px;
+    color: #0096FF;
+    list-style: none;
+    text-decoration: none;
+    background-position: 100% 100%; /*OR bottom right*/
+    background-size: 100% 2px;
+    
+    
+    }
+  
+  #dropbtn {
+    font-size: 20px;
+    font-weight: 500;
+    background: transparent;
+    border: none;
+    outline: none;
+    color: white;
+    cursor: pointer;
+  }
+  
+  #drop_a {
+    color: white;
+    text-decoration: none;
+  
+  }
+  
+  #sec {
+  
+    margin: 10px;
+    position: absolute;
+  
+    margin-left: -200px;
+    background-color: #0096FF;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    display: none;
+    
+  
+  }
+  
+  #dropdown_data1 {
+      display: flex;
+    flex-direction: column;
+    margin: 0px;
+    
+    
+   
+  }
+  
+  
+  
+  
+  
+  
+  #l {
+    margin: 8px;
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 400;
+    transition: margin-left 0.3s ease; 
+   
+  }
+  
+  #l:hover {
+    margin-left: 25px;
+  }
+  
+  
+  #drop_i {
+    display: flex;
+    gap: 150px;
+  
+  }
+  
+  #drop_icon {
+    margin-top: 10px;
+    font-size: 35px;
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+  
+  }
+  
+  
+  /* #drop {
+    
+    background-color: #0096FF;
+    width: 330px;
+    
+  }
+  
+  #dropdown {
+    list-style: none;
+    font-size: 20px;
+  }
+  
+  #dropdown1 {
+    list-style: none; s
+    font-size: 20px;
+  }
+  #dropdown2 {
+    list-style: none;
+    font-size: 20px;
+  }
+  
+  #l {
+    color: white;
+    text-decoration: none;
+    margin: 15px;
+  } */
+
+
+  #section1__serverd_datas {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: auto;
+    padding: 40px;
+
+
+    
+    
+  }
+
+  .data1 {
+    height: auto;
+    width: 300px;
+    background-color: aquamarine;
+    border: 1PX solid white;
+    transition:  box-shadow 0.3s ease,
+    transform 0.3s ease
+     
+                
+  }
+
+  .data1:hover {
+    transform: scale(0.9);
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 30px 90px;
+    font-size: 20px;
+    font-weight: 300;
+
+  }
+
+
+
+  .data2 {
+    height: auto;
+    width: 300px;
+    background-color: rgb(221, 255, 127);
+    border: 1PX solid white;
+    transition:  box-shadow 0.3s ease,
+    transform 0.3s ease
+  }
+  .data2:hover {
+    transform: scale(0.9);
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 30px 90px;
+    font-size: 20px;
+    font-weight: 300;
+
+  }
+
+  .data3 {
+    height: auto;
+    width: 300px;
+    background-color: rgb(255, 153, 127);
+    border: 1PX solid white;
+    transition:  box-shadow 0.3s ease,
+    transform 0.3s ease
+  }
+
+  .data3:hover {
+    transform: scale(0.9);
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 30px 90px;
+    font-size: 20px;
+    font-weight: 300;
+
+  }
+
+  .data4 {
+    height: auto;
+    width: 300px;
+    background-color: rgb(255, 127, 244);
+    border: 1PX solid white;
+    transition:  box-shadow 0.3s ease,
+    transform 0.3s ease
+  }
+
+  .data4:hover {
+    transform: scale(0.9);
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 30px 90px;
+    font-size: 20px;
+    font-weight: 300;
+
+  }
+
+  /* #chick {
+    filter: brightness(60%);
+  } */
+
+
+
+  #main_line {
+    margin-top: 45rem;
+  }
+  #servers_img1 {
+    height: 250px;
+    width: 100%;
+    
+    
+  }
+  #card {
+    width: 100%;
+    height: 100px;
+    background-color: #23CFFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  #text525 {
+    font-size: 20px;
+    font-weight: 600;
+    color: #000000;
+    text-transform: uppercase;
+
+  }
+
+  #t {
+     font-size: 18px;
+  }
+
+  /* #btn {
+    height: 40px;
+    width: 120px;
+    font-size: 20px;
+    cursor: pointer;
+    margin-left: 15px;
+    border-radius: 20px;
+    background-color: transparent;
+    border: none;
+    border: 1px solid #0096FF;
+    margin-top: 10px;
+    transition: background-color 0.3s ease,
+                color 0.3s ease
+  }
+
+
+  #btn:hover {
+    background-color: #0096FF;
+    border: 1px solid rgb(0, 0, 0);
+    color: white;
+ } */
+
+ #btn {
+    border-radius: 4px;
+    background-color: transparent;
+    border: 1px solid white;
+    border: none;
+    color: #fff;
+    text-align: center;
+    font-size: 20px;
+    width: 100px;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin-top: 15px;
+    box-shadow: 0 10px 20px -8px rgba(0, 0, 0,.7);
+    }
+    
+    #btn{
+      border: 1px solid white;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+    }
+    
+    #btn:after {
+    content: '»';
+    font-size: 33px;
+    position: absolute;
+    opacity: 0;  
+    top: -11px;
+    right: -20px;
+    transition: 0.5s;
+    
+    }
+    
+    #btn:hover{
+    padding-right: 24px;
+    padding-left:8px;
+    background-color: #5ca1e1;
+    border: none;
+    /* color: #ff0000; */
+    box-shadow: 0 0 50px #00aeff; 
+    text-shadow:0px 0px 50px #00eeff;
+    }
+    
+    #btn:hover:after {
+    opacity: 1;
+    right: 15px;
+    }
+
+
+
+
+
+   
+  
+
+.flip-card {
+    background-color: transparent;
+    height: 252px;
+    width: 100%;
+    perspective: 1000px;
+  }
+  
+  .flip-card-inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    transition: transform 0.6s;
+    transform-style: preserve-3d;
+  }
+  
+  .flip-card:hover .flip-card-inner {
+    transform: rotateY(180deg);
+  }
+  
+  .flip-card-front,
+  .flip-card-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+  }
+  
+  .flip-card-front {
+    background-color: #f1f1f1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  
+  .flip-card-back {
+    background-color: #2980b9;
+    color: white;
+    transform: rotateY(180deg);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+
