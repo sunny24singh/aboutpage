@@ -1,0 +1,256 @@
+
+
+
+
+
+/* ===== header css ======== */
+
+@media screen and (max-width: 650px) and (orientation : portrait) {
+    body {
+      margin: 0;
+      padding: 0;
+    } 
+  
+    #logo {
+        width: 90px;
+        height: 40px;
+        object-fit: contain;
+        margin-top: 5px;
+         
+        
+    }
+  
+    #icon {
+       display: flex;
+        
+    }
+    .navtoxix {
+        backdrop-filter: blur(0px);
+        max-width: 1280px;
+        display: flex;
+        justify-content: space-between;
+        margin-left: 0px;  
+        margin-right: 0px; 
+    }
+  
+    .list {
+        
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        
+    }
+  
+    .toggt {
+        display: none;
+       
+    }
+  
+    .toggt2 {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        font-weight: bold;
+        border-top-right-radius: 15px;
+        border-bottom-right-radius: 15px;
+        gap: 10px;
+        position: absolute;
+        left: 0; 
+        top: 0;
+        height: 180px;
+        width: 150px;
+       
+        color: red;
+        background-image: url('https://img.freepik.com/free-photo/abstract-autumn-beauty-multi-colored-leaf-vein-pattern-generated-by-ai_188544-9871.jpg');
+        object-fit: contain;
+        animation: mymove 2s;
+        animation-timing-function: ease-out;
+        
+        
+    }
+  
+    @keyframes mymove {
+        from {left: -200px;}
+        to {left: 0px;}
+    }
+  
+    #obg {
+        width: 100%;
+  
+        height: fit-content;
+        
+      }
+  
+      #nav_bottum_text2 {
+        display: none;
+      }
+  
+      #nav_text_flex {
+        max-height: 50px;
+        
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+      }
+  
+      .nav_h1 {
+        font-size: 20px;
+      }
+  
+      #header_btn {
+        display: none;
+      }
+   
+  
+      #main_line {
+        margin-top: 16.5rem;
+      
+      }
+  
+      #section1_text1 {
+        font-weight: 600;
+        text-align: center;
+        font-size: 1.9rem;
+      }
+  
+  
+      /* =================== dropdown ==========================*/
+  
+      #sec {
+        /* display: flex;
+        flex-direction: column; */
+        margin: 10px;
+        position: absolute;
+        margin-left: 0px;
+        background-color: #0096FF;
+        box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+        display: none;
+        
+      
+      }
+  
+      #dropdown_data1 {
+        display: flex;
+      flex-direction: column;
+      margin: 0px;
+      width: 300px;
+     
+    }
+  }
+  
+  
+  
+  @media only screen  and (max-width : 700px) and (max-width : 850px) and (orientation : landscape)  {
+  
+    body {
+      margin: 0;
+      padding: 0;
+    }
+  
+    #logo {
+        width: 90px;
+        height: 40px;
+        object-fit: contain;
+        margin-top: 5px;
+         
+        
+    }
+  
+    #icon {
+       display: flex;
+        
+    }
+    .navtoxix {
+        backdrop-filter: blur(0px);
+        max-width: 1280px;
+        display: flex;
+        justify-content: space-between;
+        margin-left: 0px;  
+        margin-right: 0px; 
+    }
+  
+    .list {
+        
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        
+    }
+  
+    .toggt {
+        display: none;
+       
+    }
+  
+    .toggt2 {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        font-weight: bold;
+        border-top-right-radius: 15px;
+        border-bottom-right-radius: 15px; 
+        gap: 10px;
+        position: absolute;
+        left: 0; 
+        top: 0;
+        height: 180px;
+        width: 150px;
+       
+        color: red;
+        background-image: url('https://img.freepik.com/free-photo/abstract-autumn-beauty-multi-colored-leaf-vein-pattern-generated-by-ai_188544-9871.jpg');
+        object-fit: contain;
+        animation: mymove 2s;
+        animation-timing-function: ease-out;
+        
+        
+    }
+  
+    @keyframes mymove {
+        from {left: -200px;}
+        to {left: 0px;}
+    }
+  
+    #obg {
+        width: 100%;
+        height: fit-content;
+        
+      }
+  
+      #nav_bottum_text2 {
+        display: none;
+      }
+  
+      #nav_text_flex {
+        max-height: 50px;
+        
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+      }
+  
+      .nav_h1 {
+        font-size: 20px;
+      }
+  
+      #header_btn {
+        display: none;
+      }
+   
+  
+      #main_line {
+        margin-top: 13rem;
+      
+      }
+  
+      #section1_text1 {
+        font-weight: 600;
+        text-align: center;
+        font-size: 1.9rem;
+      }
+    #main_line {
+      margin-top: 22rem;
+    
+    }
+  }
