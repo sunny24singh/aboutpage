@@ -38,3 +38,24 @@ let drop_close = document.querySelector("#drop_icon");
 drop_close.addEventListener("click" , () => {
     drop_data1.style.display = "none"
 })
+
+
+
+
+
+let amimaion = document.querySelector("#btn_data");
+
+let i = document.querySelector("#icon_btn");
+
+amimaion.addEventListener("mouseover" , () => {
+  
+     i.animate([
+        // key frames
+        { from: 'margin-left: -100px;' },
+        { to: 'margin-left: 0px;' }
+      ], {
+        // sync options
+        duration: 1000,
+        iterations: ease-out
+      })
+})
