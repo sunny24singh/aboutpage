@@ -1,256 +1,1008 @@
 
 
 
-
-
 /* ===== header css ======== */
 
 @media screen and (max-width: 650px) and (orientation : portrait) {
-    body {
-      margin: 0;
-      padding: 0;
-    } 
-  
-    #logo {
-        width: 90px;
-        height: 40px;
-        object-fit: contain;
-        margin-top: 5px;
-         
-        
-    }
-  
-    #icon {
-       display: flex;
-        
-    }
-    .navtoxix {
-        backdrop-filter: blur(0px);
-        max-width: 1280px;
-        display: flex;
-        justify-content: space-between;
-        margin-left: 0px;  
-        margin-right: 0px; 
-    }
-  
-    .list {
-        
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        
-    }
-  
-    .toggt {
-        display: none;
+  body {
+    margin: 0;
+    padding: 0;
+  } 
+
+  #logo {
+      width: 90px;
+      height: 40px;
+      object-fit: contain;
+      margin-top: 5px;
        
-    }
-  
-    .toggt2 {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        font-weight: bold;
-        border-top-right-radius: 15px;
-        border-bottom-right-radius: 15px;
-        gap: 10px;
-        position: absolute;
-        left: 0; 
-        top: 0;
-        height: 180px;
-        width: 150px;
-       
-        color: red;
-        background-image: url('https://img.freepik.com/free-photo/abstract-autumn-beauty-multi-colored-leaf-vein-pattern-generated-by-ai_188544-9871.jpg');
-        object-fit: contain;
-        animation: mymove 2s;
-        animation-timing-function: ease-out;
-        
-        
-    }
-  
-    @keyframes mymove {
-        from {left: -200px;}
-        to {left: 0px;}
-    }
-  
-    #obg {
-        width: 100%;
-  
-        height: fit-content;
-        
-      }
-  
-      #nav_bottum_text2 {
-        display: none;
-      }
-  
-      #nav_text_flex {
-        max-height: 50px;
-        
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-      }
-  
-      .nav_h1 {
-        font-size: 20px;
-      }
-  
-      #header_btn {
-        display: none;
-      }
-   
-  
-      #main_line {
-        margin-top: 16.5rem;
       
-      }
-  
-      #section1_text1 {
-        font-weight: 600;
-        text-align: center;
-        font-size: 1.9rem;
-      }
-  
-  
-      /* =================== dropdown ==========================*/
-  
-      #sec {
-        /* display: flex;
-        flex-direction: column; */
-        margin: 10px;
-        position: absolute;
-        margin-left: 0px;
-        background-color: #0096FF;
-        box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
-        display: none;
-        
-      
-      }
-  
-      #dropdown_data1 {
-        display: flex;
-      flex-direction: column;
-      margin: 0px;
-      width: 300px;
-     
-    }
   }
-  
-  
-  
-  @media only screen  and (max-width : 700px) and (max-width : 850px) and (orientation : landscape)  {
-  
-    body {
-      margin: 0;
-      padding: 0;
-    }
-  
-    #logo {
-        width: 90px;
-        height: 40px;
-        object-fit: contain;
-        margin-top: 5px;
-         
-        
-    }
-  
-    #icon {
-       display: flex;
-        
-    }
-    .navtoxix {
-        backdrop-filter: blur(0px);
-        max-width: 1280px;
-        display: flex;
-        justify-content: space-between;
-        margin-left: 0px;  
-        margin-right: 0px; 
-    }
-  
-    .list {
-        
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        
-    }
-  
-    .toggt {
-        display: none;
-       
-    }
-  
-    .toggt2 {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        font-weight: bold;
-        border-top-right-radius: 15px;
-        border-bottom-right-radius: 15px; 
-        gap: 10px;
-        position: absolute;
-        left: 0; 
-        top: 0;
-        height: 180px;
-        width: 150px;
-       
-        color: red;
-        background-image: url('https://img.freepik.com/free-photo/abstract-autumn-beauty-multi-colored-leaf-vein-pattern-generated-by-ai_188544-9871.jpg');
-        object-fit: contain;
-        animation: mymove 2s;
-        animation-timing-function: ease-out;
-        
-        
-    }
-  
-    @keyframes mymove {
-        from {left: -200px;}
-        to {left: 0px;}
-    }
-  
-    #obg {
-        width: 100%;
-        height: fit-content;
-        
-      }
-  
-      #nav_bottum_text2 {
-        display: none;
-      }
-  
-      #nav_text_flex {
-        max-height: 50px;
-        
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-      }
-  
-      .nav_h1 {
-        font-size: 20px;
-      }
-  
-      #header_btn {
-        display: none;
-      }
-   
-  
-      #main_line {
-        margin-top: 13rem;
+
+  #icon {
+     display: flex;
       
-      }
-  
-      #section1_text1 {
-        font-weight: 600;
-        text-align: center;
-        font-size: 1.9rem;
-      }
+  }
+  .navtoxix {
+      backdrop-filter: blur(0px);
+      max-width: 1280px;
+      display: flex;
+      justify-content: space-between;
+      margin-left: 0px;  
+      margin-right: 0px; 
+  }
+
+  .list {
+      
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      
+  }
+
+  .toggt {
+      display: none;
+     
+  }
+
+  .toggt2 {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      font-weight: bold;
+      border-top-right-radius: 15px;
+      border-bottom-right-radius: 15px;
+      gap: 10px;
+      position: absolute;
+      left: 0; 
+      top: 0;
+      height: 180px;
+      width: 150px;
+     
+      color: red;
+      background-image: url('https://img.freepik.com/free-photo/abstract-autumn-beauty-multi-colored-leaf-vein-pattern-generated-by-ai_188544-9871.jpg');
+      object-fit: contain;
+      animation: mymove 2s;
+      animation-timing-function: ease-out;
+      
+      
+  }
+
+  @keyframes mymove {
+      from {left: -200px;}
+      to {left: 0px;}
+  }
+
+  #obg {
+      width: 100%;
+
+      height: fit-content;
+      
+    }
+
+    #nav_bottum_text2 {
+      display: none;
+    }
+
+    #nav_text_flex {
+      max-height: 50px;
+      
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .nav_h1 {
+      font-size: 20px;
+    }
+
+    #header_btn {
+      display: none;
+    }
+ 
+
     #main_line {
-      margin-top: 22rem;
+      margin-top: 17rem;
     
     }
+
+    #section1_text1 {
+      font-weight: 600;
+      text-align: center;
+      font-size: 1.9rem;
+    }
+
+
+    /* =================== dropdown ==========================*/
+
+    #sec {
+      /* display: flex;
+      flex-direction: column; */
+      margin: 10px;
+      position: absolute;
+      margin-left: 0px;
+      background-color: #0096FF;
+      box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+      display: none;
+      
+    
+    }
+
+    #dropdown_data1 {
+      display: flex;
+    flex-direction: column;
+    margin: 0px;
+    width: 300px;
+   
   }
+}
+
+
+
+@media only screen  and (max-width : 700px) and (max-width : 850px) and (orientation : landscape)  {
+
+  body {
+    margin: 0;
+    padding: 0;
+  }
+
+  #logo {
+      width: 90px;
+      height: 40px;
+      object-fit: contain;
+      margin-top: 5px;
+       
+      
+  }
+
+  #icon {
+     display: flex;
+      
+  }
+  .navtoxix {
+      backdrop-filter: blur(0px);
+      max-width: 1280px;
+      display: flex;
+      justify-content: space-between;
+      margin-left: 0px;  
+      margin-right: 0px; 
+  }
+
+  .list {
+      
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      
+  }
+
+  .toggt {
+      display: none;
+     
+  }
+
+  .toggt2 {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      font-weight: bold;
+      border-top-right-radius: 15px;
+      border-bottom-right-radius: 15px; 
+      gap: 10px;
+      position: absolute;
+      left: 0; 
+      top: 0;
+      height: 180px;
+      width: 150px;
+     
+      color: red;
+      background-image: url('https://img.freepik.com/free-photo/abstract-autumn-beauty-multi-colored-leaf-vein-pattern-generated-by-ai_188544-9871.jpg');
+      object-fit: contain;
+      animation: mymove 2s;
+      animation-timing-function: ease-out;
+      
+      
+  }
+
+  @keyframes mymove {
+      from {left: -200px;}
+      to {left: 0px;}
+  }
+
+  #obg {
+      width: 100%;
+      height: fit-content;
+      
+    }
+
+    #nav_bottum_text2 {
+      display: none;
+    }
+
+    #nav_text_flex {
+      max-height: 50px;
+      
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .nav_h1 {
+      font-size: 20px;
+    }
+
+    #header_btn {
+      display: none;
+    }
+ 
+
+
+
+    #section1_text1 {
+      font-weight: 600;
+      text-align: center;
+      font-size: 1.9rem;
+    }
+  #main_line {
+    margin-top: 30rem;
+  
+  }
+
+  
+}
+
+/* ============== section 0 css =====================*/
+
+@media screen and (max-width: 650px) and (orientation : portrait) {
+  #section_0_datas {
+    height: auto;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-color: red; */
+    gap: 20px;
+    flex-direction: column;
+    
+}
+
+  #d {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+}
+
+#h {
+  text-align: center;
+  width: 95%;
+  font-size: 30px;
+  font-weight: 600;
+}
+}
+
+
+@media only screen  and (max-width : 700px) and (max-width : 850px) and (orientation : landscape)  {
+  #section_0_datas {
+    height: auto;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-color: red; */
+    gap: 20px;
+    flex-direction: column;
+}
+
+  #d {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#h {
+  text-align: center;
+  width: 95%;
+  font-size: 30px;
+  font-weight: 600;
+}
+}
+
+
+
+
+  /* ============== form css =====================*/
+
+  @media screen and (max-width: 650px) and (orientation : portrait) {
+
+    #for1 {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      gap: 40px;
+      margin: 0;
+      padding: 0;
+    }
+
+    #for2 {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      gap: 40px;
+      margin: 0;
+      padding: 0;
+    }
+
+    #email {
+      margin-left: 0px;
+      width: 300px;
+      background: transparent;
+      border: none;
+      border-bottom: 1px solid black;
+      outline: none;
+  }
+
+  #add {
+    margin-left: 0px;
+    width: 300px;
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid black;
+    outline: none;
+}
+
+#textareas {
+  width: 99%;
+  height: 190px;
+  resize: none;
+  border: none;
+  background: transparent;
+  border-bottom: 1px solid black;
+  outline: none;
+}
+
+#mapline {
+margin-top: 150px;
+}
+
+
+
+
+  }
+
+  @media only screen  and (max-width : 700px) and (max-width : 850px) and (orientation : landscape) {
+    #for1 {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      gap: 40px;
+      margin: 0;
+      padding: 0;
+    }
+
+    #for2 {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      gap: 40px;
+      margin: 0;
+      padding: 0;
+    }
+
+    #email {
+      margin-left: 0px;
+      width: 300px;
+      background: transparent;
+      border: none;
+      border-bottom: 1px solid black;
+      outline: none;
+  }
+
+  #add {
+    margin-left: 0px;
+    width: 300px;
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid black;
+    outline: none;
+}
+
+#textareas {
+  width: 96%;
+  height: 190px;
+  resize: none;
+  border: none;
+  background: transparent;
+  border-bottom: 1px solid black;
+  outline: none;
+}
+
+#mapline {
+margin-top: 150px;
+}
+  }
+
+
+
+
+
+/* ============================= about footer css ======================== */
+
+
+
+@media screen and (max-width: 650px) and (orientation : portrait) {
+
+#a1 {
+  background-color: black;
+  padding-top: 2rem;
+
+}
+
+#f{
+margin-top: 0;
+
+}
+
+.footer_main_tetx {
+text-align: center;
+/* margin-top: 100px; */
+font-size: 2rem;
+font-weight: 700;
+color: white;
+/* margin-top: 50px; */
+}
+
+
+#footer_datas {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  width: 100%;
+  height: auto;
+  /* background-color: black; */
+  flex-direction: column;
+  margin-top: 3rem;
+}
+
+#footer_section2_datas {
+display: flex;
+justify-content: center;
+align-items: center;
+height: auto;
+flex-direction: column;
+}
+
+
+#libas {
+border-right: 1px solid white;
+height: 0px;
+margin-top: 20px;
+margin-right: 0px;
+margin-left: 10px;
+display: none;
+}
+
+#libas1 {
+border-bottom: 1px solid white;
+width: 90%;
+height: 0;
+margin-top: 20px;
+margin-right: 0px;
+margin-left: 10px;
+display: flex;
+}
+
+}
+
+
+@media only screen  and (max-width : 700px) and (max-width : 850px) and (orientation : landscape) {
+#footer_datas {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  width: 100%;
+  height: auto;
+  /* background-color: black; */
+  flex-direction: column;
+  margin-top: 3rem;
+}
+
+#footer_section2_datas {
+display: flex;
+justify-content: center;
+align-items: center;
+height: auto;
+flex-direction: column;
+}
+
+
+#libas {
+border-right: 1px solid white;
+height: 0px;
+margin-top: 20px;
+margin-right: 0px;
+margin-left: 10px;
+display: none;
+}
+
+#libas1 {
+border-bottom: 1px solid white;
+width: 90%;
+height: 0;
+margin-top: 20px;
+margin-right: 0px;
+margin-left: 10px;
+display: flex;
+}
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ============================ tablet css ======================================*/
+
+@media only screen and (min-device-width : 760px) and (max-device-width : 1024px) and (orientation : portrait)  {
+#section_0_datas {
+  height: 100px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* background-color: red; */
+  gap: 20px;
+  padding: 20px;
+}
+
+
+/* ==== footer teb css =====*/
+
+.footer_main_tetx {
+text-align: center;
+/* margin-top: 100px; */
+font-size: 4rem;
+font-weight: 700;
+color: white;
+}
+
+#footer_datas {
+display: flex;
+justify-content: center;
+align-items: center;
+gap: 20px;
+width: 100%;
+height: auto;
+/* background-color: black; */
+flex-wrap: wrap;
+margin-top: 5rem;
+}
+
+#footer_section2_main {
+background-color: black;
+width: 100%;
+height: auto;
+}
+
+#footer_section2_datas {
+display: flex;
+justify-content: center;
+align-items: center;
+gap: 20px;
+width: 100%;
+height: 1200px;
+/* background-color: black; */
+flex-wrap: wrap;
+padding-top: 1rem;
+align-content: flex-start;
+}
+
+#libas {
+border-right: 1px solid white;
+height: 350px;
+margin-top: 20px;
+margin-right: 0px;
+margin-left: 10px;
+display: none;
+}
+
+#libas1 {
+border-right: 1px solid white;
+height: 350px;
+margin-top: 20px;
+margin-right: 0px;
+margin-left: 10px;
+display: none;
+}
+}
+
+
+
+
+
+@media only screen and (min-device-width : 760px) and (max-device-width : 1024px) and (orientation : landscape) {
+#section_0_datas {
+  height: 100px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* background-color: red; */
+  gap: 20px;
+  padding: 20px;
+}
+
+
+/* ==== footer teb css =====*/
+
+.footer_main_tetx {
+text-align: center;
+/* margin-top: 100px; */
+font-size: 4rem;
+font-weight: 700;
+color: white;
+}
+
+#footer_datas {
+display: flex;
+justify-content: center;
+align-items: center;
+gap: 20px;
+width: 100%;
+height: auto;
+/* background-color: black; */
+flex-wrap: wrap;
+margin-top: 5rem;
+}
+
+#footer_section2_main {
+background-color: black;
+width: 100%;
+height: auto;
+}
+
+#footer_section2_datas {
+display: flex;
+justify-content: center;
+align-items: center;
+gap: 20px;
+width: 100%;
+height: 1200px;
+/* background-color: black; */
+flex-wrap: wrap;
+padding-top: 1rem;
+align-content: flex-start;
+}
+
+#libas {
+border-right: 1px solid white;
+height: 350px;
+margin-top: 20px;
+margin-right: 0px;
+margin-left: 10px;
+display: none;
+}
+
+#libas1 {
+border-right: 1px solid white;
+height: 350px;
+margin-top: 20px;
+margin-right: 0px;
+margin-left: 10px;
+display: none;
+}
+}
+
+
+
+
+
+
+@media only screen and (min-device-width : 720px) and (max-device-height  : 540px)  and (orientation : landscape)  {
+#main_line {
+      margin-top: 40rem;
+}
+
+
+#section_0 {
+margin-bottom: 5rem;
+}
+
+/* ==== footer teb css =====*/
+
+.footer_main_tetx {
+text-align: center;
+/* margin-top: 100px; */
+font-size: 4rem;
+font-weight: 700;
+color: white;
+}
+
+#footer_datas {
+display: flex;
+justify-content: center;
+align-items: center;
+gap: 20px;
+width: 100%;
+height: auto;
+/* background-color: black; */
+flex-wrap: wrap;
+margin-top: 5rem;
+}
+
+#footer_section2_main {
+background-color: black;
+width: 100%;
+height: auto;
+}
+
+#footer_section2_datas {
+display: flex;
+justify-content: center;
+align-items: center;
+gap: 20px;
+width: 100%;
+height: auto;
+height: auto;
+flex-wrap: wrap;
+/* background-color: black; */
+
+padding-top: 1rem;
+/* align-content: flex-start; */
+}
+
+#libas {
+border-right: 1px solid white;
+height: 350px;
+margin-top: 20px;
+margin-right: 0px;
+margin-left: 10px;
+display: none;
+}
+
+#libas1 {
+border-right: 1px solid white;
+height: 350px;
+margin-top: 20px;
+margin-right: 0px;
+margin-left: 10px;
+display: none;
+}
+}
+
+
+@media only screen and (min-device-width : 540px) and (max-device-height  : 720px)  and (orientation : portrait)  {
+  #main_line {
+    margin-top: 25rem;
+  }
+  
+  
+  #section_0 {
+  margin-bottom: 5rem;
+  }
+  
+  /* ==== footer teb css =====*/
+  
+  .footer_main_tetx {
+  text-align: center;
+  /* margin-top: 100px; */
+  font-size: 4rem;
+  font-weight: 700;
+  color: white;
+  }
+  
+  #footer_datas {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  width: 100%;
+  height: auto;
+  /* background-color: black; */
+  flex-wrap: wrap;
+  margin-top: 5rem;
+  }
+  
+  #footer_section2_main {
+  background-color: black;
+  width: 100%;
+  height: auto;
+  }
+  
+  #footer_section2_datas {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  width: 100%;
+  height: auto;
+  height: auto;
+  flex-wrap: wrap;
+  /* background-color: black; */
+  
+  padding-top: 1rem;
+  /* align-content: flex-start; */
+  }
+  
+  #libas {
+  border-right: 1px solid white;
+  height: 350px;
+  margin-top: 20px;
+  margin-right: 0px;
+  margin-left: 10px;
+  display: none;
+  }
+  
+  #libas1 {
+  border-right: 1px solid white;
+  height: 350px;
+  margin-top: 20px;
+  margin-right: 0px;
+  margin-left: 10px;
+  display: none;
+  }
+  }
+
+
+
+
+
+@media only screen and (min-device-width : 720px) and (max-device-height  : 1114px)  and (orientation : portrait) {
+#main_line {
+  margin-top: 45rem;
+}
+
+
+#section_0 {
+margin-bottom: 5rem;
+}
+
+/* ==== footer teb css =====*/
+
+.footer_main_tetx {
+text-align: center;
+/* margin-top: 100px; */
+font-size: 4rem;
+font-weight: 700;
+color: white;
+}
+
+#footer_datas {
+display: flex;
+justify-content: center;
+align-items: center;
+gap: 20px;
+width: 100%;
+height: auto;
+/* background-color: black; */
+flex-wrap: wrap;
+margin-top: 5rem;
+}
+
+#footer_section2_main {
+background-color: black;
+width: 100%;
+height: auto;
+}
+
+#footer_section2_datas {
+display: flex;
+justify-content: center;
+align-items: center;
+gap: 20px;
+width: 100%;
+height: 1200px;
+/* background-color: black; */
+flex-wrap: wrap;
+padding-top: 1rem;
+align-content: flex-start;
+}
+
+#libas {
+border-right: 1px solid white;
+height: 350px;
+margin-top: 20px;
+margin-right: 0px;
+margin-left: 10px;
+display: none;
+}
+
+#libas1 {
+border-right: 1px solid white;
+height: 350px;
+margin-top: 20px;
+margin-right: 0px;
+margin-left: 10px;
+display: none;
+}
+}
+
+
+
+
+@media only screen and (min-device-width : 690px) and (max-device-height : 829px) and (orientation : portrait) {
+#main_line {
+  margin-top: 45rem;
+}
+
+
+#section_0 {
+margin-bottom: 5rem;
+}
+
+/* ==== footer teb css =====*/
+
+.footer_main_tetx {
+text-align: center;
+/* margin-top: 100px; */
+font-size: 4rem;
+font-weight: 700;
+color: white;
+}
+
+#footer_datas {
+display: flex;
+justify-content: center;
+align-items: center;
+gap: 20px;
+width: 100%;
+height: auto;
+/* background-color: black; */
+flex-wrap: wrap;
+margin-top: 5rem;
+}
+
+#footer_section2_main {
+background-color: black;
+width: 100%;
+height: auto;
+}
+
+#footer_section2_datas {
+display: flex;
+justify-content: center;
+align-items: center;
+gap: 20px;
+width: 100%;
+height: 1200px;
+/* background-color: black; */
+flex-wrap: wrap;
+padding-top: 1rem;
+align-content: flex-start;
+}
+
+#libas {
+border-right: 1px solid white;
+height: 350px;
+margin-top: 20px;
+margin-right: 0px;
+margin-left: 10px;
+display: none;
+}
+
+#libas1 {
+border-right: 1px solid white;
+height: 350px;
+margin-top: 20px;
+margin-right: 0px;
+margin-left: 10px;
+display: none;
+}
+}

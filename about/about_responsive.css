@@ -1584,7 +1584,251 @@ margin-top: 5rem;
 }
 
 
-@media only screen and (min-device-width : 540px) and (max-device-height  : 720px)  and (orientation : landscape)   {
+@media only screen and (min-device-width : 540px) and (max-device-height  : 720px)  and (orientation : portrait)   {
+
+  #main_line {
+    margin-top: 23rem;
+}
+
+  #section1_text1 {
+    font-weight: 600;
+    text-align: center;
+    font-size: 2.5rem;
+}
+
+#section1_data {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+  background-color: rgb(255, 255, 255);
+  width: 100%;
+  height: auto;
+}
+
+.section1_img {
+height: auto;
+width: 500px;
+padding: 20px;
+/* background-color: #ffffff; */
+}
+
+.data {
+height: auto;
+width: 500px;
+padding: 20px;
+/* background-color: #ffffff; */
+}
+
+
+#section_head_text {
+  text-align: center;
+  font-size: 2rem;
+  font-weight: 500;
+  text-decoration: underline;
+  text-decoration-color: #0096FF;
+  text-underline-offset: 20px;
+}
+
+#section__text {
+margin-top: 30px;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+#section3_text1 {
+width: 70%;
+text-align: center;
+font-size: 1rem;
+}
+
+#main_section3 {
+margin-top: 70px;
+height: auto;
+width: 100%;
+background-color: #ffffff;
+display: flex;
+justify-content: center;
+align-items: center;
+gap: 50px;
+flex-wrap: wrap;
+}
+
+
+
+  
+  #section4_data {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    height: 400px;
+    width: 100%;
+}
+
+.section4_data1 {
+  height: 250px;
+  width: 250px;
+  /* background-color: #51ff00; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.section4_data2 {
+height: 250px;
+width: 250px;
+/* background-color: #51ff00; */
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+gap: 30px;
+}
+
+.section4_data3 {
+height: 250px;
+width: 250px;
+/* background-color: #51ff00; */
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+gap: 30px;
+}
+
+#section4_icon1 {
+  height: 125px;
+  width: 125px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid black;
+  border-radius: 50%;
+  cursor: pointer;
+  transition: box-shadow 0.3s ease;
+}
+
+#section4_icon2 {
+height: 125px;
+width: 125px;
+display: flex;
+justify-content: center;
+align-items: center;
+border: 1px solid black;
+border-radius: 50%;
+cursor: pointer;
+transition: box-shadow 0.3s ease;
+}
+
+#section4_icon3 {
+height: 125px;
+width: 125px;
+display: flex;
+justify-content: center;
+align-items: center;
+border: 1px solid black;
+border-radius: 50%;
+cursor: pointer;
+transition: box-shadow 0.3s ease;
+}
+
+#section4_icon {
+  font-size: 80px;
+  color: #0096FF;
+}
+
+#section4_text {
+font-size: 2rem;
+text-align: center;
+font-weight: 700;
+}
+
+
+/* ===== section 4 chils5 tab css top icon par chick karne bale ====== */
+
+    #section4_child1_datas {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 100%;
+      height: auto;
+      /* background-color: black; */
+      gap: 0px;
+    }
+
+    #section4_child2_datas {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 100%;
+      height: auto;
+      /* background-color: black; */
+      gap: 0px;
+    }
+
+    #section4_child3_datas {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 100%;
+      height: auto;
+      /* background-color: black; */
+      gap: 0px;
+    }
+
+  #footer_datas {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 70px;
+    width: 100%;
+    height: auto;
+    /* background-color: black; */
+    flex-wrap: wrap;
+    padding-top: 5rem;
+}
+      #footer_section2_datas {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: auto;
+        flex-wrap: wrap;
+        height: auto;
+        align-content: flex-start;
+    }
+
+}
+
+
+
+
+@media only screen and (min-device-width : 720px) and (max-device-height  : 540px)  and (orientation : landscape)   {
+
+  #main_line {
+    margin-top: 43rem;
+}
+
+#libas {
+  border-right: 1px solid white;
+  height: 0px;
+  margin-top: 20px;
+  margin-right: 0px;
+  margin-left: 10px;
+  display: none;
+}
+
+#libas1 {
+  border-right: 1px solid white;
+  height: 0px;
+  margin-top: 20px;
+  margin-right: 0px;
+  margin-left: 10px;
+  display: none;
+}
 
   #section1_text1 {
     font-weight: 600;
@@ -1802,7 +2046,23 @@ font-weight: 700;
 
 
 @media only screen and (min-device-width : 720px) and (max-device-height  : 1114px)  and (orientation : portrait)   {
-
+  #libas {
+    border-right: 1px solid white;
+    height: 0px;
+    margin-top: 20px;
+    margin-right: 0px;
+    margin-left: 10px;
+    display: none;
+  }
+  
+  #libas1 {
+    border-right: 1px solid white;
+    height: 0px;
+    margin-top: 20px;
+    margin-right: 0px;
+    margin-left: 10px;
+    display: none;
+  }
   #section1_text1 {
     font-weight: 600;
     text-align: center;
