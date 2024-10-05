@@ -592,7 +592,7 @@ align-content: flex-start;
 
 
 
-@media only screen and (min-device-width : 540px) and (max-device-height  : 720px)  and (orientation : landscape) {
+@media only screen and (min-device-width : 720px) and (max-device-height  : 540px)  and (orientation : landscape) {
   #section1__serverd_datas {
     display: flex;
     justify-content: center;
@@ -632,6 +632,130 @@ align-content: flex-start;
       height: auto;
       align-content: flex-start;
   }
+}
+
+
+
+@media only screen and (min-device-width : 720px) and (max-device-height  : 1114px)  and (orientation : portrait) {
+  #section1__serverd_datas {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 100%;
+    height: auto;
+    padding: 0px;
+    
+}
+
+#dc {
+  text-align: center;
+  font-weight: 400;
+  color: #535353;
+  width: 95%;
+}
+
+
+#footer_datas {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 70px;
+  width: 100%;
+  height: auto;
+  /* background-color: black; */
+  flex-wrap: wrap;
+  padding-top: 5rem;
+}
+    #footer_section2_datas {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: auto;
+      flex-wrap: wrap;
+      height: auto;
+      align-content: flex-start;
+  }
+
+  #libas1 {
+    border-bottom: 1px solid white;
+    height: 350px;
+    margin-top: 20px;
+    margin-right: 0px;
+    margin-left: 10px;
+    display: none;
+}
+
+#libas {
+  border-bottom: 1px solid white;
+  height: 350px;
+  margin-top: 20px;
+  margin-right: 0px;
+  margin-left: 10px;
+  display: none;
+}
+}
+
+
+
+@media only screen and (min-device-width : 690px) and (max-device-height : 829px) and (orientation : portrait) {
+  #section1__serverd_datas {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 100%;
+    height: auto;
+    padding: 0px;
+    
+}
+
+#dc {
+  text-align: center;
+  font-weight: 400;
+  color: #535353;
+  width: 95%;
+}
+
+
+#footer_datas {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 70px;
+  width: 100%;
+  height: auto;
+  /* background-color: black; */
+  flex-wrap: wrap;
+  padding-top: 5rem;
+}
+    #footer_section2_datas {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: auto;
+      flex-wrap: wrap;
+      height: auto;
+      align-content: flex-start;
+  }
+
+  #libas1 {
+    border-bottom: 1px solid white;
+    height: 350px;
+    margin-top: 20px;
+    margin-right: 0px;
+    margin-left: 10px;
+    display: none;
+}
+
+#libas {
+  border-bottom: 1px solid white;
+  height: 350px;
+  margin-top: 20px;
+  margin-right: 0px;
+  margin-left: 10px;
+  display: none;
+}
 }
 
   
